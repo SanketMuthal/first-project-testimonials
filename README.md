@@ -1,5 +1,5 @@
-# first-project-testimonials.
-# screenshot of my task and all other details are given in the "testimonials-grid-section-main"folder
+# FIRST PROJRCT- TESTMONIALS...
+# Screenshot of my task and all other details are given in the "testimonials-grid-section-main"folder
 
 
 ## Welcome! 👋
