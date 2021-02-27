@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<title>Testimonials grid section</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap');
+
+body{
+        background-color:hsl(210, 46%, 95%);
+        font-family: 'Barlow Semi Condensed', sans-serif;
+    }
+    
+.cont1 { grid-area: c1;
+    background-image: url(images/bg-pattern-quotation.svg);
+ background-position: 343px 0px ;
+background-repeat: no-repeat;
+    background-color: hsl(263, 55%, 52%);
+   width:470px;
+    
+}
+.cont2 { grid-area: c2;
+    background-color: hsl(217, 19%, 35%);
+    width:190px;
+    
+}
+.cont3 { grid-area: c3;
+     background-color:hsl(0, 0%, 100%);
+    width:190px;
+    
+    
+}
+.cont4 { grid-area: c4;
+     background-color:hsl(0, 0%, 100%);
+    width:185px;
+    
+    
+}
+.cont5 { grid-area: c5;
+     background-color:hsl(219, 29%, 14%);
+     width:465px;
+     
+} 
+.common {
+     border-radius:10px;
+    padding:15px;
+    padding-right:30px;
+     padding-left:30px;
+    text-align:left;
+    font-weight:500;
+    font-size:13px;
+    
+}
+
+.container {
+display: grid;
+grid-template-areas:
+'c1 c1 c2 c3'
+'c4 c5 c5 c3';
+  grid-gap: 20px;
+grid-column-gap:30px;
+padding:20px;
+margin:90px;
+margin-left:100px;
+margin-right:100px;
+
+}
+img {
+    float:left;
+    margin-right:20px;
+    border-radius:50%;
+    
+    height:30px;
+    width:30px;
+}
+@media only screen and (max-width: 375px) {
+ 
+
+    
+  .cont1 { grid-area: c1;
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-position: 79% 0px ;
+    background-repeat: no-repeat;
+    background-color: hsl(263, 55%, 52%);
+    width:255px;
+
+  }
+  .cont2 { grid-area: c2;
+    background-color: hsl(217, 19%, 35%);
+    width:256px;
+    
+}
+.cont3 { grid-area: c3;
+     background-color:hsl(0, 0%, 100%);
+    width:256px;
+    
+    
+}
+.cont4 { grid-area: c4;
+     background-color:hsl(0, 0%, 100%);
+    width:255px;
+    
+    
+}
+.cont5 { grid-area: c5;
+     background-color:hsl(219, 29%, 14%);
+     width:255px;
+     
+}
+    
+     .container {
+display: grid;
+grid-template-areas:
+'c1'
+'c2'
+'c4'
+'c5'
+'c3';
+  grid-gap: 20px;
+    
+   } 
+    
+    
+    
+}
+</style>
+</head>
+<body>
+<div class="container">
+    
+   <div class="cont1 common" style="color:hsl(0, 0%, 100%);">
+        <div>
+
+            <img src="images/image-daniel.jpg" alt="Profile image">
+        <p>Daniel Clifford
+        <br><span style="opacity:0.5; font-size:11px">Verified Graduate</p>
+        </div>
+        <p style="font-weight:600; font-size:20px"> I received a job offer mid-course, and the subjects I learned were current, if not more so, in the company I joined. I honestly feel I got every penny’s worth.</p>
+        <p style="opacity:0.7">“ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a transition and have heard some people who had an amazing experience here. I signed up for the free intro course and found it incredibly fun! I enrolled shortly thereafter. The next 12 weeks was the best - and most grueling - time of my life. Since completing the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”</p>
+    </div>
+    
+    <div class="cont2 common" style="color:hsl(0, 0%, 100%);">
+       <div>
+            <img src="images/image-jonathan.jpg" alt="Profile image">
+        <p>Jonathan Walters
+        <br><span style="opacity:0.5; font-size:11px">Verified Graduate</p>
+        </div>
+         <p style="font-weight:600; font-size:20px">The team was very supportive and kept me motivated</p>
+        <p style="opacity:0.7">“ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer for a big company. This was one of the best investments I’ve made in myself. ”</p>
+   </div>
+   
+   <div class="cont3 common" style="color:hsl(217, 19%, 35%);"> 
+        <div>
+            <img src="images/image-kira.jpg" alt="Profile image">
+        <p>Kira Whittle
+         <br><span style="opacity:0.5; font-size:11px">Verified Graduate</p>
+        </div>
+      <p style="font-weight:600; font-size:20px"><b>Such a life-changing experience. Highly recommended!</b></p>
+         <p style="opacity:0.7">“ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from professionals who can help me learn programming step by step. I was encouraged to enroll by a former student of theirs who can only say wonderful things about the program. The entire curriculum and staff did not disappoint. They were very hands-on and I never had to wait long for assistance. The agile team project, in particular, was outstanding. It took my learning to the next level in a way that no tutorial could ever have. In fact, I’ve often referred to it during interviews as an example of my developent experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers. 100% recommend! ”</p>
+    </div>
+    
+    <div class="cont4 common" style="color:hsl(217, 19%, 35%)">
+          <div>
+            <img src="images/image-jeanette.jpg" alt="Profile image">
+        <p>Jeanette Harmon
+         <br><span style="opacity:0.5; font-size:11px">Verified Graduate</p>
+        </div>
+         <p style="font-weight:600; font-size:20px"><b>An overall wonderful and rewarding experience</b></p>
+         <p style="opacity:0.7">“ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living while doing something I love. ”</p>
+    </div>
+    
+    <div class="cont5 common"  style="color:hsl(0, 0%, 100%);"> 
+           <div>
+            <img src="images/image-patrick.jpg" alt="Profile image" style="border: 1px solid hsl(263, 55%, 52%,)">
+        <p> Patrick Abrams
+        <br><span style="opacity:0.5; font-size:11px">Verified Graduate</p>
+        </div>
+          <p style="font-weight:600; font-size:20px"><b>Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and learning from their experiences was easy.</b></p>
+           <p style="opacity:0.7"> “ The staff seem genuinely concerned about my progress which I find really refreshing. The program gave me the confidence necessary to be able to go out in the world and present myself as a capable junior developer. The standard is above the rest. You will get the personal attention you need from an incredible community of smart and amazing people. ”</p>
+    </div>
+    
+</div>
+</body>
+</html>
