@@ -1,6 +1,6 @@
 # FIRST PROJECT- TESTMONIALS...
 # Screenshot of my task and all other details are given in the "testimonials-grid-section-main"folder
-
+Here I have not made separate files of CSS, I have applied CSS in HTML itself.
 
 ## Welcome! 👋
 
