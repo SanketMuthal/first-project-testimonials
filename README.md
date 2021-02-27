@@ -1,6 +1,6 @@
 # first-project-testimonials.
-# screenshot of my task:
-![Design preview for the Testimonials grid section coding challenge](./design/desktop-preview.jpg)
+# screenshot of my task and all other details are given in the "testimonials-grid-section-main"folder
+
 
 ## Welcome! 👋
 
